@@ -1,0 +1,31 @@
+PODS:
+  - CTMediator (46)
+  - LMYPersonInfoKit (0.1.0):
+    - CTMediator
+    - LMYPersonPeferenceKit
+  - LMYPersonPeferenceKit (1.0.0):
+    - CTMediator
+
+DEPENDENCIES:
+  - CTMediator
+  - LMYPersonInfoKit (from `../`)
+  - LMYPersonPeferenceKit
+
+SPEC REPOS:
+  https://github.com/coderMyron/LMYSpecs.git:
+    - LMYPersonPeferenceKit
+  trunk:
+    - CTMediator
+
+EXTERNAL SOURCES:
+  LMYPersonInfoKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CTMediator: f1cf58d509fb3192086c367711f039efd769b907
+  LMYPersonInfoKit: 0517641e500f656aa35937a4a71626a54c41cad6
+  LMYPersonPeferenceKit: 6dfa51d81d7a5cbb75e44dfd094434225e51b1dc
+
+PODFILE CHECKSUM: 0d50b1d0efd4c03955a8ea0a74382079d75c00ff
+
+COCOAPODS: 1.11.0

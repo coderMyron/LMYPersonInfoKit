@@ -1,0 +1,30 @@
+{
+  "name": "LMYPersonInfoKit",
+  "version": "0.1.0",
+  "summary": "A short description of LMYPersonInfoKit.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/coderMyron/LMYPersonInfoKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "coderMyron": "244270327@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/coderMyron/LMYPersonInfoKit.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "LMYPersonInfoKit/Classes/**/*",
+  "dependencies": {
+    "CTMediator": [
+
+    ],
+    "LMYPersonPeferenceKit": [
+
+    ]
+  }
+}

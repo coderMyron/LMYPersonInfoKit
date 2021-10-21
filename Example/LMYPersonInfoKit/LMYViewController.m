@@ -7,6 +7,7 @@
 //
 
 #import "LMYViewController.h"
+#import "CTMediator+LMYPersonInfo.h"
 
 @interface LMYViewController ()
 
@@ -17,13 +18,21 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+	
+    UIButton *personInfoButton = [UIButton buttonWithType:UIButtonTypeCustom];
+    [self.view addSubview:personInfoButton];
+    personInfoButton.backgroundColor = [UIColor yellowColor];
+    [personInfoButton setTitle:@"个人详情" forState:UIControlStateNormal];
+    [personInfoButton setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
+    personInfoButton.frame = CGRectMake((self.view.frame.size.width - 150) * 0.5, 200, 150, 50);
+    [personInfoButton addTarget:self action:@selector(personInfoClick) forControlEvents:UIControlEventTouchUpInside];
 }
 
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+-(void)personInfoClick{
+    UIViewController *personVC = [[CTMediator sharedInstance] personInfoWithName:@"李四" age:18];
+    [self.navigationController pushViewController:personVC animated:YES];
 }
+
+
 
 @end

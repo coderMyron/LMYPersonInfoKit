@@ -1,0 +1,6 @@
+framework module LMYPersonInfoKit {
+  umbrella header "LMYPersonInfoKit-umbrella.h"
+
+  export *
+  module * { export * }
+}
