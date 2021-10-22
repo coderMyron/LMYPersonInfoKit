@@ -7,105 +7,122 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00E32AD508F1159602CF26DA32FCEB20 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59040624F92B050B2ECF8FA644B47678 /* Foundation.framework */; };
-		09B53D8281EBEB65195126EA7CB48716 /* LMYPersonPeferenceKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C3A0A9FB647A22DF8447A9984F4E52A /* LMYPersonPeferenceKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0DF023EB84E391CA767A77F53A2EB80E /* Pods-LMYPersonInfoKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C880A18A5BB41EB173DB4FC34E171665 /* Pods-LMYPersonInfoKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		17BE2C69DC95264478E390BE3C7E6612 /* LMYPersonPreferenceViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 871B621584C2316B935BF4BBF4B0C142 /* LMYPersonPreferenceViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		21D0143D019AFE5F5CA8E05EC87838B5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59040624F92B050B2ECF8FA644B47678 /* Foundation.framework */; };
+		1A9569DC3BA082D3587697F1D88098FB /* CTMediator+LMYPersonInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 107D2CC038985CF62C99235550761A27 /* CTMediator+LMYPersonInfo.m */; };
 		295835E76931A1D917E2C5B9F569885C /* Pods-LMYPersonInfoKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BD0C59F760BA02F8C1FF68831D6CFDCB /* Pods-LMYPersonInfoKit_Example-dummy.m */; };
-		31CE58FC5E6E17CB119015C3F8B5FED2 /* Target_LMYPersonInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E676964799287C565452263496DCD57 /* Target_LMYPersonInfoViewController.m */; };
-		3C317307DA928586F74C00DDD2B46979 /* Target_LMYPersonInfoViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = FA4EE0ED7483F69A272826CB5879E468 /* Target_LMYPersonInfoViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3D38A4A8363E842C3E9A5C7AE192624F /* Target_LMYPersonPreferenceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 203AC631B21D3F09CEBE8495C8C72656 /* Target_LMYPersonPreferenceViewController.m */; };
+		350F321D44EF9BFC2B524F7CB829617C /* touch_lock@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 890F5383F36394577F89E7B5B0C7DD97 /* touch_lock@2x.png */; };
+		3E5729CB665B9963D002F46E313D78BD /* Target_LMYPersonPreferenceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 203AC631B21D3F09CEBE8495C8C72656 /* Target_LMYPersonPreferenceViewController.m */; };
+		428BB6BF91E99A9F865A723AEECA6F94 /* Target_LMYPersonPreferenceViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 51F08C7F18C9E4411B25ADCCCCCF165E /* Target_LMYPersonPreferenceViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		42BE4417ABDCD43233C41CF267134F18 /* CTMediator+HandyTools.h in Headers */ = {isa = PBXBuildFile; fileRef = 2242162168A058ECD156A67813D2D111 /* CTMediator+HandyTools.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5133E50ABFEDE99AB4FC3BA357570EF3 /* LMYPersonPreferenceViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 871B621584C2316B935BF4BBF4B0C142 /* LMYPersonPreferenceViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5344B730BF8FE9467079C6E6979D9CBB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59040624F92B050B2ECF8FA644B47678 /* Foundation.framework */; };
+		57B0B713F9412235FB306AEAC7F679ED /* LMYPersonInfoKit-LMYPersonInfoKit in Resources */ = {isa = PBXBuildFile; fileRef = 2F6FBD521DF88C632B027093D32D06E6 /* LMYPersonInfoKit-LMYPersonInfoKit */; };
 		57F913906FE82D421D710579974826C8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59040624F92B050B2ECF8FA644B47678 /* Foundation.framework */; };
-		5FF0C536C48E4CE56B355A92E27AD68F /* CTMediator+LMYPersonPreference.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D6D9068F279C9F97B275BDECDCB5A8F /* CTMediator+LMYPersonPreference.m */; };
+		5BC4221F2C4CA2A872EFAC5CB6E5F143 /* CTMediator+LMYPersonPreference.h in Headers */ = {isa = PBXBuildFile; fileRef = 69505FED1464091BF23991038A6D0943 /* CTMediator+LMYPersonPreference.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		65D60FD3836762032656B62E2944AEEE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59040624F92B050B2ECF8FA644B47678 /* Foundation.framework */; };
 		6B85ACC9D9B9C7B6E302F56FDC1F089D /* CTMediator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B8F306800EA544E6FE09A8C635726BCB /* CTMediator-dummy.m */; };
-		6DE4F9E1E7C9AC0AD9B18D5DE63B814E /* LMYPersonPeferenceKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FE5E509A0556D9BD9FE31CAFB6983FE /* LMYPersonPeferenceKit-dummy.m */; };
-		6E80702185238A74A2854E30DCA330B5 /* CTMediator+LMYPersonPreference.h in Headers */ = {isa = PBXBuildFile; fileRef = 69505FED1464091BF23991038A6D0943 /* CTMediator+LMYPersonPreference.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		72A269AE0B199D600B1E7888F2969681 /* LMYPersonInfoKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A61C5F1BEDFF6E62BD7CC7E826A8396D /* LMYPersonInfoKit-dummy.m */; };
+		72AD1D9B961C651E5960D52AAB3A23F0 /* Target_LMYPersonInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F58269FA63B6AAD498CCAA54AC7029D /* Target_LMYPersonInfoViewController.m */; };
+		73EA3CB17639EA09078FD3F4433E67BF /* LMYPersonPeferenceKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FE5E509A0556D9BD9FE31CAFB6983FE /* LMYPersonPeferenceKit-dummy.m */; };
+		7C5D6BB43E50ECA67260CDB3F3854AB1 /* LMYPersonInfoViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 182998A1D0B31590A91FB6ED4C960796 /* LMYPersonInfoViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		831281FA485A9EDFF5CCEFCB6E905434 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59040624F92B050B2ECF8FA644B47678 /* Foundation.framework */; };
+		8BC77A6DCFAA7194112293165405CBBE /* CTMediator+LMYPersonInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = FAF29F4C2E5BAB3D16A4AE05F43138B5 /* CTMediator+LMYPersonInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8EE0219ABBE284161243BAC47A006D34 /* CTMediator+LMYPersonPreference.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D6D9068F279C9F97B275BDECDCB5A8F /* CTMediator+LMYPersonPreference.m */; };
 		8FC1C23A469E9C7E5365B8EE107ABF0B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B68540C55CA43970CDF0C24725F02FA /* CoreGraphics.framework */; };
-		9F143DC6E1EACED3BEEB0EC06A358DE5 /* CTMediator+LMYPersonInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DA70A44576D3914F329FCC31EF15196 /* CTMediator+LMYPersonInfo.m */; };
-		A6AF6C1A00B838E6DEDE115AABDF0DDA /* LMYPersonInfoKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F526371491C1B778F199CDA0CD3E004C /* LMYPersonInfoKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B04CCE29BAE40493CAF8E61FA1FC4BDB /* LMYPersonInfoViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 61A25326DC21C612D9F733A97824CE34 /* LMYPersonInfoViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		94CBB9C8416781FCDD3AAA616283769F /* LMYPersonPeferenceKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C3A0A9FB647A22DF8447A9984F4E52A /* LMYPersonPeferenceKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A77D7B1974D8D4C1B87B12FE9DA7C146 /* touch_lock@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 45EA96478556C690AB74C475EE117EB1 /* touch_lock@3x.png */; };
+		AA8A48B53024BA33054A470F3DD7E92B /* LMYPersonInfoKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BE567E9ABF0C8536072F11451D05D2C4 /* LMYPersonInfoKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ACFCFA1150384EC7A4E2B08CB8518A83 /* Target_LMYPersonInfoViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 47E68229B67C8C45C66B0730418DF357 /* Target_LMYPersonInfoViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B3BE8F979961BC77FA06A16BF43A14F6 /* CTMediator+HandyTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DE97DCD182169C607675B73C3CD9D3A /* CTMediator+HandyTools.m */; };
 		B7FEF377E3AE69AD3731EC0EA95D98CF /* CTMediator-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 26C340C803F5C84EB2A58CE71FE45C59 /* CTMediator-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B81FE6F1649FF8C967E311D0C5EE73F5 /* LMYPersonPreferenceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0F663EACB437F90924C95E54F7903F2 /* LMYPersonPreferenceViewController.m */; };
 		BAD359F7F06D6F05CA2BF83967F6FB81 /* Pods-LMYPersonInfoKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 21FF10795258AE7D5DD67080A64B6166 /* Pods-LMYPersonInfoKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C7CDDAB0BD6F1339F9E5D0803201807F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59040624F92B050B2ECF8FA644B47678 /* Foundation.framework */; };
-		C949A375E87D770CAF585C075D82A75B /* LMYPersonPreferenceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0F663EACB437F90924C95E54F7903F2 /* LMYPersonPreferenceViewController.m */; };
-		CFCEA6467B7D734C9364EA2E412C1AA4 /* LMYPersonInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18145AEE4BCBC2267B30EFFC61032AF9 /* LMYPersonInfoViewController.m */; };
-		E4A311E9E68C849935126B5C3CEBBD85 /* LMYPersonInfoKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B40EEE1EA38DD0660CCC819BCA5064CB /* LMYPersonInfoKit-dummy.m */; };
-		E982EA686D23EB3C589AF08D1B74D599 /* Target_LMYPersonPreferenceViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 51F08C7F18C9E4411B25ADCCCCCF165E /* Target_LMYPersonPreferenceViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CD38AF4DEDE5BACA7D7605BD0C9DB51F /* LMYPersonInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4456BE97BAC123EA03C04C2494364FE /* LMYPersonInfoViewController.m */; };
 		EAEE20117ABE5388BFA2BE6BB04069FA /* CTMediator.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E5DB5F63682457CF686A5088A8DF89A /* CTMediator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F1C422AE68C65B9B24E89F82E0572E0C /* touch_lock.png in Resources */ = {isa = PBXBuildFile; fileRef = C74986EA38A04B53E25BE41C60129941 /* touch_lock.png */; };
 		F21D9B1D8DF6C1FBC8038C51522007ED /* Pods-LMYPersonInfoKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F721EF64A7F14A24342B89431088A53 /* Pods-LMYPersonInfoKit_Tests-dummy.m */; };
-		FA358A9201D64B120E66CC395632C02B /* CTMediator+LMYPersonInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CB9DACD73295D04C6D498CAE98A3F79 /* CTMediator+LMYPersonInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FC48763D071B2B60A02B28A915F5DD9F /* CTMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = C047A411ABD615753F89BF130B22665E /* CTMediator.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		00946EAD3B515A3EF9EBC6B3E35EEFDC /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 6A222DBB9D71B481EE8F2DACD77F8A61;
-			remoteInfo = CTMediator;
-		};
-		140B449AE06A40D4143D88BFA1FA9C0C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 6A222DBB9D71B481EE8F2DACD77F8A61;
-			remoteInfo = CTMediator;
-		};
-		1A0008BCD1F8330AB69828E9964E825F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 6A222DBB9D71B481EE8F2DACD77F8A61;
-			remoteInfo = CTMediator;
-		};
-		42D6AB510B99620FBA79C76A1622DB28 /* PBXContainerItemProxy */ = {
+		150C2D2CE9864632A153491B4EDD18D8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 602638E1CA87C99BCFEB0B82F781F9CF;
 			remoteInfo = LMYPersonInfoKit;
 		};
-		6CD095F91C2C2FF6121EB0903A7E4138 /* PBXContainerItemProxy */ = {
+		18784E0703CE56935358DA1D23BAE1CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6A222DBB9D71B481EE8F2DACD77F8A61;
+			remoteInfo = CTMediator;
+		};
+		467A8DF6E1AAE5D3A48BA271320FB785 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 4E217B8C57E09605280B6A86E18AF3F8;
 			remoteInfo = LMYPersonPeferenceKit;
 		};
-		7174D89087AD7E16992F9BC482695DB6 /* PBXContainerItemProxy */ = {
+		792C41493DEF8AD73E6C2CD7A3EFDD83 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6A222DBB9D71B481EE8F2DACD77F8A61;
+			remoteInfo = CTMediator;
+		};
+		79B1C430C9D7725D050B434012ABC0D5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = E93A34FFEB20AF67371673CF9A73D25C;
 			remoteInfo = "Pods-LMYPersonInfoKit_Example";
 		};
-		F08D540ABA369D4C4024945EFE1EAB32 /* PBXContainerItemProxy */ = {
+		CF66D17B45D94329AF5955B33D18F37E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6A222DBB9D71B481EE8F2DACD77F8A61;
+			remoteInfo = CTMediator;
+		};
+		D6F3C34552EE5E8EE4FBBB4E8AC3677E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 4E217B8C57E09605280B6A86E18AF3F8;
 			remoteInfo = LMYPersonPeferenceKit;
 		};
+		F539A317B20DA0BE6B98FC7F01733A3B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9772D1721110B56B0786D123E9AFEFA1;
+			remoteInfo = "LMYPersonInfoKit-LMYPersonInfoKit";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		107D2CC038985CF62C99235550761A27 /* CTMediator+LMYPersonInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CTMediator+LMYPersonInfo.m"; path = "LMYPersonInfoKit/Classes/LMYPersonInfoKit/CTMediator+LMYPersonInfo.m"; sourceTree = "<group>"; };
 		116DE97C34286859238458885A48BC97 /* Pods-LMYPersonInfoKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LMYPersonInfoKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		13FDB20B55D4DD0B31968BAC551405A7 /* LMYPersonPeferenceKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LMYPersonPeferenceKit-Info.plist"; sourceTree = "<group>"; };
 		155F3712B67B40EE58D6A74195EB5B99 /* Pods-LMYPersonInfoKit_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-LMYPersonInfoKit_Example"; path = Pods_LMYPersonInfoKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		18145AEE4BCBC2267B30EFFC61032AF9 /* LMYPersonInfoViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LMYPersonInfoViewController.m; path = LMYPersonInfoKit/Classes/LMYPersonInfoKit/LMYPersonInfoViewController.m; sourceTree = "<group>"; };
+		182998A1D0B31590A91FB6ED4C960796 /* LMYPersonInfoViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LMYPersonInfoViewController.h; path = LMYPersonInfoKit/Classes/LMYPersonInfoKit/LMYPersonInfoViewController.h; sourceTree = "<group>"; };
+		18BFDAEB551BF3D0745663BED1B23541 /* LMYPersonInfoKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LMYPersonInfoKit-Info.plist"; sourceTree = "<group>"; };
+		1F58269FA63B6AAD498CCAA54AC7029D /* Target_LMYPersonInfoViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Target_LMYPersonInfoViewController.m; path = LMYPersonInfoKit/Classes/LMYPersonInfoKit/Target_LMYPersonInfoViewController.m; sourceTree = "<group>"; };
 		203AC631B21D3F09CEBE8495C8C72656 /* Target_LMYPersonPreferenceViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Target_LMYPersonPreferenceViewController.m; path = LMYPersonPeferenceKit/Classes/LMYPersonPreferenceKit/Target_LMYPersonPreferenceViewController.m; sourceTree = "<group>"; };
 		21FF10795258AE7D5DD67080A64B6166 /* Pods-LMYPersonInfoKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LMYPersonInfoKit_Example-umbrella.h"; sourceTree = "<group>"; };
 		2242162168A058ECD156A67813D2D111 /* CTMediator+HandyTools.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CTMediator+HandyTools.h"; path = "CTMediator/CTMediator/CTMediator+HandyTools.h"; sourceTree = "<group>"; };
 		26C340C803F5C84EB2A58CE71FE45C59 /* CTMediator-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CTMediator-umbrella.h"; sourceTree = "<group>"; };
+		2F6FBD521DF88C632B027093D32D06E6 /* LMYPersonInfoKit-LMYPersonInfoKit */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "LMYPersonInfoKit-LMYPersonInfoKit"; path = LMYPersonInfoKit.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		3684D75E826032E2EC37FF2727F09A55 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		3AEE0650D3809B8157F97B8EE2B96045 /* CTMediator.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CTMediator.modulemap; sourceTree = "<group>"; };
+		3FA134D7D85A1ECF9F111FCDB53DE931 /* LMYPersonInfoKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LMYPersonInfoKit.modulemap; sourceTree = "<group>"; };
+		45EA96478556C690AB74C475EE117EB1 /* touch_lock@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "touch_lock@3x.png"; path = "LMYPersonInfoKit/Assets/touch_lock@3x.png"; sourceTree = "<group>"; };
+		47E68229B67C8C45C66B0730418DF357 /* Target_LMYPersonInfoViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Target_LMYPersonInfoViewController.h; path = LMYPersonInfoKit/Classes/LMYPersonInfoKit/Target_LMYPersonInfoViewController.h; sourceTree = "<group>"; };
 		4B68540C55CA43970CDF0C24725F02FA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
-		4CB9DACD73295D04C6D498CAE98A3F79 /* CTMediator+LMYPersonInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CTMediator+LMYPersonInfo.h"; path = "LMYPersonInfoKit/Classes/LMYPersonInfoKit/CTMediator+LMYPersonInfo.h"; sourceTree = "<group>"; };
-		4DA70A44576D3914F329FCC31EF15196 /* CTMediator+LMYPersonInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CTMediator+LMYPersonInfo.m"; path = "LMYPersonInfoKit/Classes/LMYPersonInfoKit/CTMediator+LMYPersonInfo.m"; sourceTree = "<group>"; };
 		4EC1F0C18264C242888E0B1EF760A021 /* LMYPersonPeferenceKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LMYPersonPeferenceKit.debug.xcconfig; sourceTree = "<group>"; };
 		51874E5175D942E654B47982B7DAE937 /* LMYPersonPeferenceKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LMYPersonPeferenceKit.release.xcconfig; sourceTree = "<group>"; };
 		51F08C7F18C9E4411B25ADCCCCCF165E /* Target_LMYPersonPreferenceViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Target_LMYPersonPreferenceViewController.h; path = LMYPersonPeferenceKit/Classes/LMYPersonPreferenceKit/Target_LMYPersonPreferenceViewController.h; sourceTree = "<group>"; };
@@ -117,48 +134,47 @@
 		5E151CE088A98DBBD279AAF991E16540 /* CTMediator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CTMediator.debug.xcconfig; sourceTree = "<group>"; };
 		5F721EF64A7F14A24342B89431088A53 /* Pods-LMYPersonInfoKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LMYPersonInfoKit_Tests-dummy.m"; sourceTree = "<group>"; };
 		5FE5E509A0556D9BD9FE31CAFB6983FE /* LMYPersonPeferenceKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LMYPersonPeferenceKit-dummy.m"; sourceTree = "<group>"; };
-		61A25326DC21C612D9F733A97824CE34 /* LMYPersonInfoViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LMYPersonInfoViewController.h; path = LMYPersonInfoKit/Classes/LMYPersonInfoKit/LMYPersonInfoViewController.h; sourceTree = "<group>"; };
+		621D9972B35374658205FFC99A8C9303 /* LMYPersonInfoKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = LMYPersonInfoKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		6482E4C06F73EB749A194D72D8E473DB /* ResourceBundle-LMYPersonInfoKit-LMYPersonInfoKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-LMYPersonInfoKit-LMYPersonInfoKit-Info.plist"; sourceTree = "<group>"; };
 		6507073F04116B3704FCA0F70E6F3AF1 /* Pods-LMYPersonInfoKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LMYPersonInfoKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		67FEAD8C071E7DF7E9A52DA9BBE7CBC1 /* Pods-LMYPersonInfoKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LMYPersonInfoKit_Example.release.xcconfig"; sourceTree = "<group>"; };
 		68FD71EBA2CC98523D3AACCE8A0D43C8 /* CTMediator */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CTMediator; path = CTMediator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		69505FED1464091BF23991038A6D0943 /* CTMediator+LMYPersonPreference.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CTMediator+LMYPersonPreference.h"; path = "LMYPersonPeferenceKit/Classes/LMYPersonPreferenceKit/CTMediator+LMYPersonPreference.h"; sourceTree = "<group>"; };
-		7C37892E0276826538B1B457A7038141 /* LMYPersonInfoKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LMYPersonInfoKit-Info.plist"; sourceTree = "<group>"; };
 		7C3A0A9FB647A22DF8447A9984F4E52A /* LMYPersonPeferenceKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LMYPersonPeferenceKit-umbrella.h"; sourceTree = "<group>"; };
 		7DD2B0FCDD17422F835B8DCE430D1782 /* Pods-LMYPersonInfoKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LMYPersonInfoKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		7E5DB5F63682457CF686A5088A8DF89A /* CTMediator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CTMediator.h; path = CTMediator/CTMediator/CTMediator.h; sourceTree = "<group>"; };
 		85F41321CA01F78916679AD671094D14 /* Pods-LMYPersonInfoKit_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-LMYPersonInfoKit_Tests"; path = Pods_LMYPersonInfoKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		871B621584C2316B935BF4BBF4B0C142 /* LMYPersonPreferenceViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LMYPersonPreferenceViewController.h; path = LMYPersonPeferenceKit/Classes/LMYPersonPreferenceKit/LMYPersonPreferenceViewController.h; sourceTree = "<group>"; };
-		8829F4A0E2FA5EBAA801E2F15AD7146F /* LMYPersonInfoKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LMYPersonInfoKit.debug.xcconfig; sourceTree = "<group>"; };
+		890F5383F36394577F89E7B5B0C7DD97 /* touch_lock@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "touch_lock@2x.png"; path = "LMYPersonInfoKit/Assets/touch_lock@2x.png"; sourceTree = "<group>"; };
 		8DE97DCD182169C607675B73C3CD9D3A /* CTMediator+HandyTools.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CTMediator+HandyTools.m"; path = "CTMediator/CTMediator/CTMediator+HandyTools.m"; sourceTree = "<group>"; };
+		954A2706491496408C6EBFDD16032EB3 /* LMYPersonInfoKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LMYPersonInfoKit.debug.xcconfig; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9E676964799287C565452263496DCD57 /* Target_LMYPersonInfoViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Target_LMYPersonInfoViewController.m; path = LMYPersonInfoKit/Classes/LMYPersonInfoKit/Target_LMYPersonInfoViewController.m; sourceTree = "<group>"; };
 		A46B58414B908D300547E904A8BD13D5 /* Pods-LMYPersonInfoKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LMYPersonInfoKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		ACCEA6CE576942465D5EE4B642A6BD49 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		A5B25B91C41DB6F77DD6E42EE13414EF /* LMYPersonInfoKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LMYPersonInfoKit.release.xcconfig; sourceTree = "<group>"; };
+		A61C5F1BEDFF6E62BD7CC7E826A8396D /* LMYPersonInfoKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LMYPersonInfoKit-dummy.m"; sourceTree = "<group>"; };
 		B18A18CE6C4D7E32BD23D49B1161D6FF /* Pods-LMYPersonInfoKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LMYPersonInfoKit_Tests.modulemap"; sourceTree = "<group>"; };
-		B40EEE1EA38DD0660CCC819BCA5064CB /* LMYPersonInfoKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LMYPersonInfoKit-dummy.m"; sourceTree = "<group>"; };
 		B6F21A8F943375B4898E77D8DE64D28D /* Pods-LMYPersonInfoKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LMYPersonInfoKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B86E95AF12C245F4B58A21C27834DEA0 /* LMYPersonInfoKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LMYPersonInfoKit-prefix.pch"; sourceTree = "<group>"; };
 		B8F306800EA544E6FE09A8C635726BCB /* CTMediator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CTMediator-dummy.m"; sourceTree = "<group>"; };
 		BD0C59F760BA02F8C1FF68831D6CFDCB /* Pods-LMYPersonInfoKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LMYPersonInfoKit_Example-dummy.m"; sourceTree = "<group>"; };
 		BDFB11B81C378A79191A7B7C03F5820B /* Pods-LMYPersonInfoKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LMYPersonInfoKit_Example.modulemap"; sourceTree = "<group>"; };
+		BE567E9ABF0C8536072F11451D05D2C4 /* LMYPersonInfoKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LMYPersonInfoKit-umbrella.h"; sourceTree = "<group>"; };
 		C047A411ABD615753F89BF130B22665E /* CTMediator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CTMediator.m; path = CTMediator/CTMediator/CTMediator.m; sourceTree = "<group>"; };
 		C0BD4FA86B24DF4B4E7940A85FB7E364 /* Pods-LMYPersonInfoKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LMYPersonInfoKit_Example-frameworks.sh"; sourceTree = "<group>"; };
 		C0F663EACB437F90924C95E54F7903F2 /* LMYPersonPreferenceViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LMYPersonPreferenceViewController.m; path = LMYPersonPeferenceKit/Classes/LMYPersonPreferenceKit/LMYPersonPreferenceViewController.m; sourceTree = "<group>"; };
+		C74986EA38A04B53E25BE41C60129941 /* touch_lock.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = touch_lock.png; path = LMYPersonInfoKit/Assets/touch_lock.png; sourceTree = "<group>"; };
 		C880A18A5BB41EB173DB4FC34E171665 /* Pods-LMYPersonInfoKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LMYPersonInfoKit_Tests-umbrella.h"; sourceTree = "<group>"; };
 		C89C1ED5D024456C545E5592547A2411 /* LMYPersonPeferenceKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LMYPersonPeferenceKit-prefix.pch"; sourceTree = "<group>"; };
 		CD952541887AC11B4E95DE9FCAA7D3B2 /* Pods-LMYPersonInfoKit_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LMYPersonInfoKit_Tests-Info.plist"; sourceTree = "<group>"; };
 		CE9B8E431B04B16597B07F5DC9631B4C /* CTMediator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CTMediator.release.xcconfig; sourceTree = "<group>"; };
-		CFB1511D1AC84B748FC67B655B56393C /* LMYPersonInfoKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LMYPersonInfoKit-prefix.pch"; sourceTree = "<group>"; };
-		D490C3A3AED29FCF79804D6866A544EC /* LMYPersonInfoKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LMYPersonInfoKit.release.xcconfig; sourceTree = "<group>"; };
-		D849E99C72FAF224A3CF3593C0D2F169 /* LMYPersonInfoKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LMYPersonInfoKit.modulemap; sourceTree = "<group>"; };
 		E5144AB7D4B7CA59C9479D7FAA29CE1C /* Pods-LMYPersonInfoKit_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LMYPersonInfoKit_Example-Info.plist"; sourceTree = "<group>"; };
 		EDC351B3F9332C880336F48108D28702 /* Pods-LMYPersonInfoKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LMYPersonInfoKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		F02A22FA7BA3B91D66EF829DB2166EAC /* LMYPersonInfoKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = LMYPersonInfoKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		F526371491C1B778F199CDA0CD3E004C /* LMYPersonInfoKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LMYPersonInfoKit-umbrella.h"; sourceTree = "<group>"; };
+		EF36EE05CAA659EEF628E8639C5CAB27 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		F4456BE97BAC123EA03C04C2494364FE /* LMYPersonInfoViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LMYPersonInfoViewController.m; path = LMYPersonInfoKit/Classes/LMYPersonInfoKit/LMYPersonInfoViewController.m; sourceTree = "<group>"; };
 		F83D7F4C2281C5948AC35630BD804A3D /* CTMediator-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CTMediator-Info.plist"; sourceTree = "<group>"; };
-		FA4EE0ED7483F69A272826CB5879E468 /* Target_LMYPersonInfoViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Target_LMYPersonInfoViewController.h; path = LMYPersonInfoKit/Classes/LMYPersonInfoKit/Target_LMYPersonInfoViewController.h; sourceTree = "<group>"; };
+		FAF29F4C2E5BAB3D16A4AE05F43138B5 /* CTMediator+LMYPersonInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CTMediator+LMYPersonInfo.h"; path = "LMYPersonInfoKit/Classes/LMYPersonInfoKit/CTMediator+LMYPersonInfo.h"; sourceTree = "<group>"; };
 		FB52E62F1CAD445AF48066DCE1C55225 /* Pods-LMYPersonInfoKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LMYPersonInfoKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		FE4D3779DFB0DDCC18EC0552FA1321B2 /* LMYPersonInfoKit */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LMYPersonInfoKit; path = LMYPersonInfoKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FFD33677642A79BD4441078526A84BD9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -170,11 +186,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8F3A7E219BF0B34E3D0643A2050E0E6A /* Frameworks */ = {
+		8DAAD01231DD7C4988902892DD6B7065 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00E32AD508F1159602CF26DA32FCEB20 /* Foundation.framework in Frameworks */,
+				831281FA485A9EDFF5CCEFCB6E905434 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -195,11 +211,18 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B3255EAE4F666F5FC8006905B38FD40F /* Frameworks */ = {
+		E20E2FD3A98946F795BD0024994D6BFD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				21D0143D019AFE5F5CA8E05EC87838B5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF4B57A1E8F7E6730EECEB489DD48B2A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65D60FD3836762032656B62E2944AEEE /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,11 +265,12 @@
 			path = LMYPersonPeferenceKit;
 			sourceTree = "<group>";
 		};
-		2842A76FF5DA4517006C6C33B7EC01DF /* Products */ = {
+		2ED111203FAABE3E43791BC9AC1C93BD /* Products */ = {
 			isa = PBXGroup;
 			children = (
 				68FD71EBA2CC98523D3AACCE8A0D43C8 /* CTMediator */,
 				FE4D3779DFB0DDCC18EC0552FA1321B2 /* LMYPersonInfoKit */,
+				2F6FBD521DF88C632B027093D32D06E6 /* LMYPersonInfoKit-LMYPersonInfoKit */,
 				5227BB1E85763AB21424AEB564231475 /* LMYPersonPeferenceKit */,
 				155F3712B67B40EE58D6A74195EB5B99 /* Pods-LMYPersonInfoKit_Example */,
 				85F41321CA01F78916679AD671094D14 /* Pods-LMYPersonInfoKit_Tests */,
@@ -254,19 +278,22 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		45CC287EC415AFD05956A9F70D5E5155 /* Support Files */ = {
+		2F07F124E89B6AC7D331630A7E7F7036 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				D849E99C72FAF224A3CF3593C0D2F169 /* LMYPersonInfoKit.modulemap */,
-				B40EEE1EA38DD0660CCC819BCA5064CB /* LMYPersonInfoKit-dummy.m */,
-				7C37892E0276826538B1B457A7038141 /* LMYPersonInfoKit-Info.plist */,
-				CFB1511D1AC84B748FC67B655B56393C /* LMYPersonInfoKit-prefix.pch */,
-				F526371491C1B778F199CDA0CD3E004C /* LMYPersonInfoKit-umbrella.h */,
-				8829F4A0E2FA5EBAA801E2F15AD7146F /* LMYPersonInfoKit.debug.xcconfig */,
-				D490C3A3AED29FCF79804D6866A544EC /* LMYPersonInfoKit.release.xcconfig */,
+				A0BF549724D895F0AA0D83BB9DEFCED0 /* LMYPersonInfoKit */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/LMYPersonInfoKit";
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		39718A4CF2DFEDB7E2DCAF93BDD6510F /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				3684D75E826032E2EC37FF2727F09A55 /* LICENSE */,
+				621D9972B35374658205FFC99A8C9303 /* LMYPersonInfoKit.podspec */,
+				EF36EE05CAA659EEF628E8639C5CAB27 /* README.md */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		66901C96646825DBAF83C8E21EB11692 /* Targets Support Files */ = {
@@ -327,27 +354,20 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		A7395BF98F4ACCF3D215CE677149A573 /* Pod */ = {
+		A0BF549724D895F0AA0D83BB9DEFCED0 /* LMYPersonInfoKit */ = {
 			isa = PBXGroup;
 			children = (
-				FFD33677642A79BD4441078526A84BD9 /* LICENSE */,
-				F02A22FA7BA3B91D66EF829DB2166EAC /* LMYPersonInfoKit.podspec */,
-				ACCEA6CE576942465D5EE4B642A6BD49 /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		AD307A57DDD7B84BBED07636C9D83A1C /* LMYPersonInfoKit */ = {
-			isa = PBXGroup;
-			children = (
-				4CB9DACD73295D04C6D498CAE98A3F79 /* CTMediator+LMYPersonInfo.h */,
-				4DA70A44576D3914F329FCC31EF15196 /* CTMediator+LMYPersonInfo.m */,
-				61A25326DC21C612D9F733A97824CE34 /* LMYPersonInfoViewController.h */,
-				18145AEE4BCBC2267B30EFFC61032AF9 /* LMYPersonInfoViewController.m */,
-				FA4EE0ED7483F69A272826CB5879E468 /* Target_LMYPersonInfoViewController.h */,
-				9E676964799287C565452263496DCD57 /* Target_LMYPersonInfoViewController.m */,
-				A7395BF98F4ACCF3D215CE677149A573 /* Pod */,
-				45CC287EC415AFD05956A9F70D5E5155 /* Support Files */,
+				FAF29F4C2E5BAB3D16A4AE05F43138B5 /* CTMediator+LMYPersonInfo.h */,
+				107D2CC038985CF62C99235550761A27 /* CTMediator+LMYPersonInfo.m */,
+				182998A1D0B31590A91FB6ED4C960796 /* LMYPersonInfoViewController.h */,
+				F4456BE97BAC123EA03C04C2494364FE /* LMYPersonInfoViewController.m */,
+				47E68229B67C8C45C66B0730418DF357 /* Target_LMYPersonInfoViewController.h */,
+				1F58269FA63B6AAD498CCAA54AC7029D /* Target_LMYPersonInfoViewController.m */,
+				C74986EA38A04B53E25BE41C60129941 /* touch_lock.png */,
+				890F5383F36394577F89E7B5B0C7DD97 /* touch_lock@2x.png */,
+				45EA96478556C690AB74C475EE117EB1 /* touch_lock@3x.png */,
+				39718A4CF2DFEDB7E2DCAF93BDD6510F /* Pod */,
+				DA362F62F60B54E012EDF9ADE05318E8 /* Support Files */,
 			);
 			name = LMYPersonInfoKit;
 			path = ../..;
@@ -389,44 +409,41 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				FD2B8EAD2B9E84E20E5EE152C1BFF131 /* Development Pods */,
+				2F07F124E89B6AC7D331630A7E7F7036 /* Development Pods */,
 				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
 				873C436DF9F83C56122E490C6BE83058 /* Pods */,
-				2842A76FF5DA4517006C6C33B7EC01DF /* Products */,
+				2ED111203FAABE3E43791BC9AC1C93BD /* Products */,
 				66901C96646825DBAF83C8E21EB11692 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		FD2B8EAD2B9E84E20E5EE152C1BFF131 /* Development Pods */ = {
+		DA362F62F60B54E012EDF9ADE05318E8 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				AD307A57DDD7B84BBED07636C9D83A1C /* LMYPersonInfoKit */,
+				3FA134D7D85A1ECF9F111FCDB53DE931 /* LMYPersonInfoKit.modulemap */,
+				A61C5F1BEDFF6E62BD7CC7E826A8396D /* LMYPersonInfoKit-dummy.m */,
+				18BFDAEB551BF3D0745663BED1B23541 /* LMYPersonInfoKit-Info.plist */,
+				B86E95AF12C245F4B58A21C27834DEA0 /* LMYPersonInfoKit-prefix.pch */,
+				BE567E9ABF0C8536072F11451D05D2C4 /* LMYPersonInfoKit-umbrella.h */,
+				954A2706491496408C6EBFDD16032EB3 /* LMYPersonInfoKit.debug.xcconfig */,
+				A5B25B91C41DB6F77DD6E42EE13414EF /* LMYPersonInfoKit.release.xcconfig */,
+				6482E4C06F73EB749A194D72D8E473DB /* ResourceBundle-LMYPersonInfoKit-LMYPersonInfoKit-Info.plist */,
 			);
-			name = "Development Pods";
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/LMYPersonInfoKit";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		16FDC6E3ADBF3E7C9A9714A730933455 /* Headers */ = {
+		5A3428EACDD2A6ABE47B772B26C2E385 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA358A9201D64B120E66CC395632C02B /* CTMediator+LMYPersonInfo.h in Headers */,
-				A6AF6C1A00B838E6DEDE115AABDF0DDA /* LMYPersonInfoKit-umbrella.h in Headers */,
-				B04CCE29BAE40493CAF8E61FA1FC4BDB /* LMYPersonInfoViewController.h in Headers */,
-				3C317307DA928586F74C00DDD2B46979 /* Target_LMYPersonInfoViewController.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		45722087B4C8A9F25D7B850507D0F00B /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6E80702185238A74A2854E30DCA330B5 /* CTMediator+LMYPersonPreference.h in Headers */,
-				09B53D8281EBEB65195126EA7CB48716 /* LMYPersonPeferenceKit-umbrella.h in Headers */,
-				17BE2C69DC95264478E390BE3C7E6612 /* LMYPersonPreferenceViewController.h in Headers */,
-				E982EA686D23EB3C589AF08D1B74D599 /* Target_LMYPersonPreferenceViewController.h in Headers */,
+				8BC77A6DCFAA7194112293165405CBBE /* CTMediator+LMYPersonInfo.h in Headers */,
+				AA8A48B53024BA33054A470F3DD7E92B /* LMYPersonInfoKit-umbrella.h in Headers */,
+				7C5D6BB43E50ECA67260CDB3F3854AB1 /* LMYPersonInfoViewController.h in Headers */,
+				ACFCFA1150384EC7A4E2B08CB8518A83 /* Target_LMYPersonInfoViewController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -456,22 +473,33 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E7BCF66478342438AB1B06CC990385BF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BC4221F2C4CA2A872EFAC5CB6E5F143 /* CTMediator+LMYPersonPreference.h in Headers */,
+				94CBB9C8416781FCDD3AAA616283769F /* LMYPersonPeferenceKit-umbrella.h in Headers */,
+				5133E50ABFEDE99AB4FC3BA357570EF3 /* LMYPersonPreferenceViewController.h in Headers */,
+				428BB6BF91E99A9F865A723AEECA6F94 /* Target_LMYPersonPreferenceViewController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		4E217B8C57E09605280B6A86E18AF3F8 /* LMYPersonPeferenceKit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 136E72959CCB9D8AA8CA0724A734EF5A /* Build configuration list for PBXNativeTarget "LMYPersonPeferenceKit" */;
+			buildConfigurationList = 03C19C7C945B9917ABE3FA0F35264B8A /* Build configuration list for PBXNativeTarget "LMYPersonPeferenceKit" */;
 			buildPhases = (
-				45722087B4C8A9F25D7B850507D0F00B /* Headers */,
-				868F4148B2C2D4884A941AE969E1D4C6 /* Sources */,
-				8F3A7E219BF0B34E3D0643A2050E0E6A /* Frameworks */,
-				BE46DEF730BADA50AFDACA95B67396CA /* Resources */,
+				E7BCF66478342438AB1B06CC990385BF /* Headers */,
+				09EF3542B25CAE499816A8BBD1D4244F /* Sources */,
+				FF4B57A1E8F7E6730EECEB489DD48B2A /* Frameworks */,
+				C02E16A2B03594FF93F3D2C1C76D3E73 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				78AFCCC6E305B42850D7709219F6A669 /* PBXTargetDependency */,
+				70EE740FE31CEAFED9B42D649CB4D134 /* PBXTargetDependency */,
 			);
 			name = LMYPersonPeferenceKit;
 			productName = LMYPersonPeferenceKit;
@@ -480,18 +508,19 @@
 		};
 		602638E1CA87C99BCFEB0B82F781F9CF /* LMYPersonInfoKit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 430CC2EEF1092B3187D609ACC6B2E720 /* Build configuration list for PBXNativeTarget "LMYPersonInfoKit" */;
+			buildConfigurationList = 40B9EA2CA7AB46C088D1F48E63120549 /* Build configuration list for PBXNativeTarget "LMYPersonInfoKit" */;
 			buildPhases = (
-				16FDC6E3ADBF3E7C9A9714A730933455 /* Headers */,
-				D3C8B9CF4EAC8D5968D0C8177C8B6676 /* Sources */,
-				B3255EAE4F666F5FC8006905B38FD40F /* Frameworks */,
-				2AB31002596B5927BDAC5E32DBC0E02B /* Resources */,
+				5A3428EACDD2A6ABE47B772B26C2E385 /* Headers */,
+				357B775A3D00A189FC2EAF731809EFB1 /* Sources */,
+				8DAAD01231DD7C4988902892DD6B7065 /* Frameworks */,
+				2E9468B541430655080F11CD1C30E00D /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				E36DC3CACFA55E0A5AF070572892DD3E /* PBXTargetDependency */,
-				B91F84A0BBF6F3EDEF5126E15531E31F /* PBXTargetDependency */,
+				0940B46BA801381633C00C0F53934E4C /* PBXTargetDependency */,
+				B32375A9B1A10E6FC14F520C82507ABE /* PBXTargetDependency */,
+				6B40F97FD65C539756F821BC86608B30 /* PBXTargetDependency */,
 			);
 			name = LMYPersonInfoKit;
 			productName = LMYPersonInfoKit;
@@ -528,12 +557,29 @@
 			buildRules = (
 			);
 			dependencies = (
-				8D3CB89D47DF6858A5E0B5CA1A061083 /* PBXTargetDependency */,
+				064033362AA16E900CF448642F3231C6 /* PBXTargetDependency */,
 			);
 			name = "Pods-LMYPersonInfoKit_Tests";
 			productName = Pods_LMYPersonInfoKit_Tests;
 			productReference = 85F41321CA01F78916679AD671094D14 /* Pods-LMYPersonInfoKit_Tests */;
 			productType = "com.apple.product-type.framework";
+		};
+		9772D1721110B56B0786D123E9AFEFA1 /* LMYPersonInfoKit-LMYPersonInfoKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7AC51E684064C1E5E74875490CC87175 /* Build configuration list for PBXNativeTarget "LMYPersonInfoKit-LMYPersonInfoKit" */;
+			buildPhases = (
+				D12B55EBC6CD3F56695FBC4F2C256477 /* Sources */,
+				E20E2FD3A98946F795BD0024994D6BFD /* Frameworks */,
+				4E9AED8DA9148ACE9C4D212FE7CE894D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "LMYPersonInfoKit-LMYPersonInfoKit";
+			productName = LMYPersonInfoKit;
+			productReference = 2F6FBD521DF88C632B027093D32D06E6 /* LMYPersonInfoKit-LMYPersonInfoKit */;
+			productType = "com.apple.product-type.bundle";
 		};
 		E93A34FFEB20AF67371673CF9A73D25C /* Pods-LMYPersonInfoKit_Example */ = {
 			isa = PBXNativeTarget;
@@ -547,9 +593,9 @@
 			buildRules = (
 			);
 			dependencies = (
-				8EA93E8E3AE1684E56026D17149CF0D1 /* PBXTargetDependency */,
-				53C49A5D9F349F8AEC98536309D701A2 /* PBXTargetDependency */,
-				4FDC2ACE4A702BE4ACBD6E3DA858E186 /* PBXTargetDependency */,
+				1A32F7DB3C4A6C605C04C523500CF7E9 /* PBXTargetDependency */,
+				4EEA719A57A1126D46429CBE632EB8B2 /* PBXTargetDependency */,
+				EE31684E813EFEB7D756B9A3C8E4F8CE /* PBXTargetDependency */,
 			);
 			name = "Pods-LMYPersonInfoKit_Example";
 			productName = Pods_LMYPersonInfoKit_Example;
@@ -574,12 +620,13 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 2842A76FF5DA4517006C6C33B7EC01DF /* Products */;
+			productRefGroup = 2ED111203FAABE3E43791BC9AC1C93BD /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				6A222DBB9D71B481EE8F2DACD77F8A61 /* CTMediator */,
 				602638E1CA87C99BCFEB0B82F781F9CF /* LMYPersonInfoKit */,
+				9772D1721110B56B0786D123E9AFEFA1 /* LMYPersonInfoKit-LMYPersonInfoKit */,
 				4E217B8C57E09605280B6A86E18AF3F8 /* LMYPersonPeferenceKit */,
 				E93A34FFEB20AF67371673CF9A73D25C /* Pods-LMYPersonInfoKit_Example */,
 				9731F18A17D6C052C06F9D37EAD7AF91 /* Pods-LMYPersonInfoKit_Tests */,
@@ -595,10 +642,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2AB31002596B5927BDAC5E32DBC0E02B /* Resources */ = {
+		2E9468B541430655080F11CD1C30E00D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				57B0B713F9412235FB306AEAC7F679ED /* LMYPersonInfoKit-LMYPersonInfoKit in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E9AED8DA9148ACE9C4D212FE7CE894D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1C422AE68C65B9B24E89F82E0572E0C /* touch_lock.png in Resources */,
+				350F321D44EF9BFC2B524F7CB829617C /* touch_lock@2x.png in Resources */,
+				A77D7B1974D8D4C1B87B12FE9DA7C146 /* touch_lock@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -609,7 +667,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BE46DEF730BADA50AFDACA95B67396CA /* Resources */ = {
+		C02E16A2B03594FF93F3D2C1C76D3E73 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -626,6 +684,28 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		09EF3542B25CAE499816A8BBD1D4244F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EE0219ABBE284161243BAC47A006D34 /* CTMediator+LMYPersonPreference.m in Sources */,
+				73EA3CB17639EA09078FD3F4433E67BF /* LMYPersonPeferenceKit-dummy.m in Sources */,
+				B81FE6F1649FF8C967E311D0C5EE73F5 /* LMYPersonPreferenceViewController.m in Sources */,
+				3E5729CB665B9963D002F46E313D78BD /* Target_LMYPersonPreferenceViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		357B775A3D00A189FC2EAF731809EFB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A9569DC3BA082D3587697F1D88098FB /* CTMediator+LMYPersonInfo.m in Sources */,
+				72A269AE0B199D600B1E7888F2969681 /* LMYPersonInfoKit-dummy.m in Sources */,
+				CD38AF4DEDE5BACA7D7605BD0C9DB51F /* LMYPersonInfoViewController.m in Sources */,
+				72AD1D9B961C651E5960D52AAB3A23F0 /* Target_LMYPersonInfoViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		45E646056B7C7B10CA90B2BEB7FA580B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -644,17 +724,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		868F4148B2C2D4884A941AE969E1D4C6 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5FF0C536C48E4CE56B355A92E27AD68F /* CTMediator+LMYPersonPreference.m in Sources */,
-				6DE4F9E1E7C9AC0AD9B18D5DE63B814E /* LMYPersonPeferenceKit-dummy.m in Sources */,
-				C949A375E87D770CAF585C075D82A75B /* LMYPersonPreferenceViewController.m in Sources */,
-				3D38A4A8363E842C3E9A5C7AE192624F /* Target_LMYPersonPreferenceViewController.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		9A13914882FB84E0FA718658F3A238FF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -663,61 +732,63 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D3C8B9CF4EAC8D5968D0C8177C8B6676 /* Sources */ = {
+		D12B55EBC6CD3F56695FBC4F2C256477 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9F143DC6E1EACED3BEEB0EC06A358DE5 /* CTMediator+LMYPersonInfo.m in Sources */,
-				E4A311E9E68C849935126B5C3CEBBD85 /* LMYPersonInfoKit-dummy.m in Sources */,
-				CFCEA6467B7D734C9364EA2E412C1AA4 /* LMYPersonInfoViewController.m in Sources */,
-				31CE58FC5E6E17CB119015C3F8B5FED2 /* Target_LMYPersonInfoViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		4FDC2ACE4A702BE4ACBD6E3DA858E186 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = LMYPersonPeferenceKit;
-			target = 4E217B8C57E09605280B6A86E18AF3F8 /* LMYPersonPeferenceKit */;
-			targetProxy = F08D540ABA369D4C4024945EFE1EAB32 /* PBXContainerItemProxy */;
-		};
-		53C49A5D9F349F8AEC98536309D701A2 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = LMYPersonInfoKit;
-			target = 602638E1CA87C99BCFEB0B82F781F9CF /* LMYPersonInfoKit */;
-			targetProxy = 42D6AB510B99620FBA79C76A1622DB28 /* PBXContainerItemProxy */;
-		};
-		78AFCCC6E305B42850D7709219F6A669 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = CTMediator;
-			target = 6A222DBB9D71B481EE8F2DACD77F8A61 /* CTMediator */;
-			targetProxy = 1A0008BCD1F8330AB69828E9964E825F /* PBXContainerItemProxy */;
-		};
-		8D3CB89D47DF6858A5E0B5CA1A061083 /* PBXTargetDependency */ = {
+		064033362AA16E900CF448642F3231C6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-LMYPersonInfoKit_Example";
 			target = E93A34FFEB20AF67371673CF9A73D25C /* Pods-LMYPersonInfoKit_Example */;
-			targetProxy = 7174D89087AD7E16992F9BC482695DB6 /* PBXContainerItemProxy */;
+			targetProxy = 79B1C430C9D7725D050B434012ABC0D5 /* PBXContainerItemProxy */;
 		};
-		8EA93E8E3AE1684E56026D17149CF0D1 /* PBXTargetDependency */ = {
+		0940B46BA801381633C00C0F53934E4C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = CTMediator;
 			target = 6A222DBB9D71B481EE8F2DACD77F8A61 /* CTMediator */;
-			targetProxy = 00946EAD3B515A3EF9EBC6B3E35EEFDC /* PBXContainerItemProxy */;
+			targetProxy = CF66D17B45D94329AF5955B33D18F37E /* PBXContainerItemProxy */;
 		};
-		B91F84A0BBF6F3EDEF5126E15531E31F /* PBXTargetDependency */ = {
+		1A32F7DB3C4A6C605C04C523500CF7E9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CTMediator;
+			target = 6A222DBB9D71B481EE8F2DACD77F8A61 /* CTMediator */;
+			targetProxy = 18784E0703CE56935358DA1D23BAE1CE /* PBXContainerItemProxy */;
+		};
+		4EEA719A57A1126D46429CBE632EB8B2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LMYPersonInfoKit;
+			target = 602638E1CA87C99BCFEB0B82F781F9CF /* LMYPersonInfoKit */;
+			targetProxy = 150C2D2CE9864632A153491B4EDD18D8 /* PBXContainerItemProxy */;
+		};
+		6B40F97FD65C539756F821BC86608B30 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = LMYPersonPeferenceKit;
 			target = 4E217B8C57E09605280B6A86E18AF3F8 /* LMYPersonPeferenceKit */;
-			targetProxy = 6CD095F91C2C2FF6121EB0903A7E4138 /* PBXContainerItemProxy */;
+			targetProxy = 467A8DF6E1AAE5D3A48BA271320FB785 /* PBXContainerItemProxy */;
 		};
-		E36DC3CACFA55E0A5AF070572892DD3E /* PBXTargetDependency */ = {
+		70EE740FE31CEAFED9B42D649CB4D134 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = CTMediator;
 			target = 6A222DBB9D71B481EE8F2DACD77F8A61 /* CTMediator */;
-			targetProxy = 140B449AE06A40D4143D88BFA1FA9C0C /* PBXContainerItemProxy */;
+			targetProxy = 792C41493DEF8AD73E6C2CD7A3EFDD83 /* PBXContainerItemProxy */;
+		};
+		B32375A9B1A10E6FC14F520C82507ABE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "LMYPersonInfoKit-LMYPersonInfoKit";
+			target = 9772D1721110B56B0786D123E9AFEFA1 /* LMYPersonInfoKit-LMYPersonInfoKit */;
+			targetProxy = F539A317B20DA0BE6B98FC7F01733A3B /* PBXContainerItemProxy */;
+		};
+		EE31684E813EFEB7D756B9A3C8E4F8CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LMYPersonPeferenceKit;
+			target = 4E217B8C57E09605280B6A86E18AF3F8 /* LMYPersonPeferenceKit */;
+			targetProxy = D6F3C34552EE5E8EE4FBBB4E8AC3677E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -754,6 +825,36 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		16263AAED1F5EDC43FBF4942509AC8E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 954A2706491496408C6EBFDD16032EB3 /* LMYPersonInfoKit.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LMYPersonInfoKit/LMYPersonInfoKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LMYPersonInfoKit/LMYPersonInfoKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LMYPersonInfoKit/LMYPersonInfoKit.modulemap";
+				PRODUCT_MODULE_NAME = LMYPersonInfoKit;
+				PRODUCT_NAME = LMYPersonInfoKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -915,7 +1016,84 @@
 			};
 			name = Release;
 		};
-		6CD94E9150BFE9574FCAC8229934E2D9 /* Release */ = {
+		5D2ED8D0465552E99B7E1C0CD28A9B0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5B25B91C41DB6F77DD6E42EE13414EF /* LMYPersonInfoKit.release.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/LMYPersonInfoKit";
+				IBSC_MODULE = LMYPersonInfoKit;
+				INFOPLIST_FILE = "Target Support Files/LMYPersonInfoKit/ResourceBundle-LMYPersonInfoKit-LMYPersonInfoKit-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = LMYPersonInfoKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		70729B8134AB68FC3D43A08A5677C960 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4EC1F0C18264C242888E0B1EF760A021 /* LMYPersonPeferenceKit.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LMYPersonPeferenceKit/LMYPersonPeferenceKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LMYPersonPeferenceKit/LMYPersonPeferenceKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LMYPersonPeferenceKit/LMYPersonPeferenceKit.modulemap";
+				PRODUCT_MODULE_NAME = LMYPersonPeferenceKit;
+				PRODUCT_NAME = LMYPersonPeferenceKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A6141832E96C078ED7A42E5EFE9D26E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5B25B91C41DB6F77DD6E42EE13414EF /* LMYPersonInfoKit.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LMYPersonInfoKit/LMYPersonInfoKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LMYPersonInfoKit/LMYPersonInfoKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LMYPersonInfoKit/LMYPersonInfoKit.modulemap";
+				PRODUCT_MODULE_NAME = LMYPersonInfoKit;
+				PRODUCT_NAME = LMYPersonInfoKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C5E33CE7884E7C7B6117B0727A1F352F /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 51874E5175D942E654B47982B7DAE937 /* LMYPersonPeferenceKit.release.xcconfig */;
 			buildSettings = {
@@ -945,67 +1123,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
-		};
-		BE0DE44B568BA0DD58537861D3F33CF6 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D490C3A3AED29FCF79804D6866A544EC /* LMYPersonInfoKit.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/LMYPersonInfoKit/LMYPersonInfoKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/LMYPersonInfoKit/LMYPersonInfoKit-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/LMYPersonInfoKit/LMYPersonInfoKit.modulemap";
-				PRODUCT_MODULE_NAME = LMYPersonInfoKit;
-				PRODUCT_NAME = LMYPersonInfoKit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		C504546C2065E56AEBBC8C885C7D1B3F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4EC1F0C18264C242888E0B1EF760A021 /* LMYPersonPeferenceKit.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/LMYPersonPeferenceKit/LMYPersonPeferenceKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/LMYPersonPeferenceKit/LMYPersonPeferenceKit-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/LMYPersonPeferenceKit/LMYPersonPeferenceKit.modulemap";
-				PRODUCT_MODULE_NAME = LMYPersonPeferenceKit;
-				PRODUCT_NAME = LMYPersonPeferenceKit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -1133,53 +1250,39 @@
 			};
 			name = Debug;
 		};
-		F1BF40D4B41CF7A1BA0DAA77B17EAE0A /* Debug */ = {
+		DDB0CCD56AD1090B5DF4788C19DB8EB4 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8829F4A0E2FA5EBAA801E2F15AD7146F /* LMYPersonInfoKit.debug.xcconfig */;
+			baseConfigurationReference = 954A2706491496408C6EBFDD16032EB3 /* LMYPersonInfoKit.debug.xcconfig */;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/LMYPersonInfoKit/LMYPersonInfoKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/LMYPersonInfoKit/LMYPersonInfoKit-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/LMYPersonInfoKit";
+				IBSC_MODULE = LMYPersonInfoKit;
+				INFOPLIST_FILE = "Target Support Files/LMYPersonInfoKit/ResourceBundle-LMYPersonInfoKit-LMYPersonInfoKit-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/LMYPersonInfoKit/LMYPersonInfoKit.modulemap";
-				PRODUCT_MODULE_NAME = LMYPersonInfoKit;
 				PRODUCT_NAME = LMYPersonInfoKit;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
+				WRAPPER_EXTENSION = bundle;
 			};
 			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		136E72959CCB9D8AA8CA0724A734EF5A /* Build configuration list for PBXNativeTarget "LMYPersonPeferenceKit" */ = {
+		03C19C7C945B9917ABE3FA0F35264B8A /* Build configuration list for PBXNativeTarget "LMYPersonPeferenceKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C504546C2065E56AEBBC8C885C7D1B3F /* Debug */,
-				6CD94E9150BFE9574FCAC8229934E2D9 /* Release */,
+				70729B8134AB68FC3D43A08A5677C960 /* Debug */,
+				C5E33CE7884E7C7B6117B0727A1F352F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		430CC2EEF1092B3187D609ACC6B2E720 /* Build configuration list for PBXNativeTarget "LMYPersonInfoKit" */ = {
+		40B9EA2CA7AB46C088D1F48E63120549 /* Build configuration list for PBXNativeTarget "LMYPersonInfoKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F1BF40D4B41CF7A1BA0DAA77B17EAE0A /* Debug */,
-				BE0DE44B568BA0DD58537861D3F33CF6 /* Release */,
+				16263AAED1F5EDC43FBF4942509AC8E4 /* Debug */,
+				A6141832E96C078ED7A42E5EFE9D26E0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1207,6 +1310,15 @@
 			buildConfigurations = (
 				3CB8A3B4CB8EE49AA02D10FB6DBB339F /* Debug */,
 				31B34241DE4B01CAE1E853F20B7CAD39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7AC51E684064C1E5E74875490CC87175 /* Build configuration list for PBXNativeTarget "LMYPersonInfoKit-LMYPersonInfoKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDB0CCD56AD1090B5DF4788C19DB8EB4 /* Debug */,
+				5D2ED8D0465552E99B7E1C0CD28A9B0C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
